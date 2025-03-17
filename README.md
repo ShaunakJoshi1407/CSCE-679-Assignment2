@@ -44,6 +44,6 @@ python3 -m http.server 8000
 
 Go to http://localhost:8000 to view the results.
 
-Make sure to install python3 and or npm if it is already not installed. 
+Make sure to install python3 /npm / node if not installed already. 
 
 Run the server from the folder that contains the index.js and the index.html files.
