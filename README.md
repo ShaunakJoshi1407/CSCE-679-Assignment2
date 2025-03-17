@@ -16,3 +16,34 @@ It includes an improved heatmap with embedded line charts in each cell to show d
 ### How to Use
 - Visit the above links to interact with the visualizations directly on Observable.
 - For more details about the implementation, refer to the code in the folders Level 1 and Level 2.
+
+## Run Locally
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/ShaunakJoshi1407/CSCE-679-Assignment2.git
+cd CSCE-679-Assignment2
+```
+
+### 2. Extract the Archive
+```bash
+cd Level2  # or Level1
+tar -xvzf 538299c2326aca89.tgz
+cd <extracted-folder-name>  # replace with actual folder name
+```
+
+### 3. Run with http-server or python3
+```bash
+npm install -g http-server
+http-server -p 8000
+```
+
+```bash
+python3 -m http.server 8000
+```
+
+Go to http://localhost:8000 to view the results.
+
+Make sure to install python3 and or npm if it is already not installed. 
+
+Run the server from the folder that contains the index.js and the index.html files.
